@@ -1,0 +1,541 @@
+.fon {
+	background: #535058 url("картинки/fon.png");
+	background-repeat: no-repeat; /* чтобы фон не повторялся */
+	background-size: cover; /* чтобы фон растянулся на всю ширину и сохранил пропорции */
+	width: 100%;
+	height: 740px;
+}
+.body {
+	margin: 0;
+}
+.zagolovok_kontener{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.zagolovok {
+	padding-top: 11%;
+	text-align: center;
+	color: #fff;
+	font-size: 64px;
+	font-weight: 500;
+	font-family: robotoR, sans-serif;
+	width: 60%;
+}
+.podzagolovok{
+	color: #fff;
+	font-size: 18px;
+}
+
+.burger {
+	width: 50px;
+	height: 50px;
+	background:#F7654A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+	right: 18%;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.burger:hover{
+	background: #a11e06;
+}
+.burger_img {
+	width: 21px;
+	height: 18px;
+}
+.fonlogo{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 30px;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left:20%;
+}
+.table_kontener {
+	position: absolute;
+	top: 590px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.table{
+	background: #F7F7F7;
+	width: 61%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text2, .text3, .text4 {
+	font-family: robotoB, sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.text1{
+	margin-left:5%;
+	margin-right: 5%;
+}
+.text2{
+	color:#F7654A;
+	font-size:72px;
+}
+.text3{
+	font-size:36px;
+}
+	
+.text4{
+	color:#999999;
+	font-size: 18px;
+}
+.slogon {
+	margin-top: 250px;
+	color: #404149;
+	font-size: 36px;
+	font-family: robotoB, sans-serif;
+	text-align: center;
+}
+.tovari{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.tovar{
+	width: 350px;
+}
+.tovar_vtoroy {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.tovar_polosa{
+	background:#F7654A;
+	width:55px;
+	height:6px;
+	margin-top:45px;
+}
+.tovar_zagolovok{
+	font-size:24px;
+	margin-top:15px;
+	font-family:robotoB, sans-serif;
+}
+.tovar_opisanie {
+	margin-top:20px;
+	color:#999999;
+	font-size: 16px;
+	font-family:robotoR, sans-serif;
+}
+.proekti_conteener{
+	background: #F7654A;
+	display: flex;
+	justify-content: center;
+	margin-top:150px;
+}
+.proekti{
+	display:flex;
+	justify-content: space-between;
+	width:65%;
+	height: 181px;
+}
+.zagolovok_proekti{
+	color:#FFFFFF;
+	font-size:48px;
+	font-family:robotoB, sans-serif;
+	padding-top: 30px;
+}
+.text_proekti{
+	color:#FFFFFF;
+	font-size:24px;
+	font-family:robotoB, sans-serif;
+	padding-top: 20px;
+}
+.fon_konvert{
+	display:flex;
+	align-items:center;
+}
+.blok_s_konvertom{
+	background: #FFFFFF;
+	width:175px;
+	height:49px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: background .5s ease;
+}
+.blok_s_konvertom:hover{
+	background:#E9E9E9;
+	cursor: pointer;
+}
+.text_konvert{
+	font-size:14px;
+	font-family:robotoB, sans-serif;
+}
+.zanyatie_text_fon{
+	text-align: center;
+	margin-top:150px;
+}
+.zanyatie_text{
+	font-size:36px;
+	font-family:robotoB;
+}
+.stroitelstvo_blok{
+	background:#F7F7F7;
+	height:250px;
+	width:350px;
+	margin-top:66px;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	text-align:center;
+	transition: transform .5s ease;
+}
+.stroitelstvo_blok:hover{
+	transform:scale(1.2);
+	background:#E9E9E9;
+	cursor:pointer;
+}
+.stroitelstvo_kartinka{
+	width:60px;
+	height:40px;
+}
+.stroitelstvo_text{
+	font-size:21px;
+	font-family:robotoB;
+	margin-top:30px;
+	width:200px;
+}
+.stroitelstvo_fon1{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.voprosi_zagolovok{
+	font-size:36px;
+	font-family:robotoB;
+	margin-top:150px;
+	text-align: center;
+}
+.blok_voprosi{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.blok_voprosi2{
+	margin-top:50px;
+}
+.voprosi_text{
+	font-size:24px;
+	color:#F7654A;
+	font-family:robotoB;
+	margin-left:15px;
+	
+}
+.voprosi_podtext{
+	font-size:16px;
+	color:#999999;
+	font-family:robotoR;
+	width: 730px;
+	height:83px;
+	margin-top:30px;
+}
+.blok_s_znakom{
+	display:flex;
+}
+.voprosi_text2{
+	margin-top:40px;
+}
+.voprosi_znak{
+	display: flex;
+	align-items:center;
+}
+.znak_kartinka{
+	width:15px;
+	height:15px;
+}
+.blok_partneri{
+	width:100%;
+	height:364px;
+	background:#404149;
+	margin-top:150px;
+}
+.blok_partneri_text{
+	color:#FFFFFF;
+	font-size:36px;
+	font-family:robotoB;
+}
+.blok_partneri_text_fon{
+	height:100px;
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.blok_partneri_logo_fon{
+	display:flex;
+	justify-content:center;
+}
+.blok_partneri_logo{
+	margin-top:60px;
+}
+.blok_partneri_logo2{
+	margin-left:65px;
+	margin-right:65px;
+}
+.blok_partneri_logo5{
+	margin-left:64px;
+}
+.blok_partneri_logo4{
+	margin-right:64px;
+}
+.partners{
+	width:170px;
+	height:61px;
+}
+.blok_otzivi_zagolovok{
+	font-size:36px;
+	font-family:robotoB;
+	margin-top:150px;
+	text-align:center;
+}
+.square_ozivi{
+	width:350px;
+	height:259px;
+	background:#F7F7F7;
+}
+.commas{
+	font-size:96px;
+	color:#F7654A;
+	margin-left:28px;
+	height:42px;
+}
+.square_text{
+	font-size:14px;
+	color:#999999;
+	margin-top:30px;
+	margin-left:30px;
+	margin-right:30px;
+}
+.blok_otzivi_podzagolovok{
+	display:flex;
+	justify-content:center;
+	margin-top:30px;
+}
+.square_text2{
+	font-size:21px;
+	font-family:robotoB;
+}
+.square_text3{
+	font-size:21px;
+	font-family:robotoB;
+	color:#F7654A;
+}
+
+.square_ozivi_fon{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	margin-top:64px;
+}
+.square_ozivi2{
+	margin-left:30px;
+	margin-right:30px;
+}
+.square_te2{
+	margin-left:30px;
+	margin-right:30px;
+}
+.work{
+	width:100%;
+	height:181px;
+	background:#F7654A;
+	margin-top:150px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.work_header{
+	color:#fff;
+	font-size:48px;
+	font-family:robotoB;
+}
+.work_subtitle{
+	color:#fff;
+	font-size:24px;
+	font-family:robotoB;
+}
+.work_button{
+	width:175px;
+	height:49px;
+	background:#ffffff;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	transition: background .5s ease;
+}
+.work_button:hover{
+	background:#E9E9E9;
+	cursor: pointer;
+}
+.work_text{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.work_logo{
+	margin-right:15px;
+	width:71px;
+	height:29px;
+}
+.work_logo_text{
+	font-size:14px;
+	font-family:robotoB;
+}
+.contacts_zagolovok{
+	font-size:36px;
+	font-family:robotoB;
+}
+.contact_t{
+	font-size:24px;
+	font-family:robotoB;
+	color:#999999;
+	margin-top:30px;
+	
+}
+.contact_t2{
+	font-size:24px;
+	font-family:robotoB;
+	margin-top:20px;
+}
+
+.contact_blok_emael_podtext{
+	font-size:24px;
+	font-family:robotoB;
+	color:#F7654A;
+	margin-top:20px;
+}
+.contacts{
+	width:100%;
+}
+.contacts_zagolovok_fon{
+	text-align:center;
+}
+.contacts_zagolovok{
+	margin-top:100px;
+}
+.contact_blok{
+	display:flex;
+	justify-content:center;
+	
+}
+.contact_blok_adres{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.contact_blok_telefon{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-left:70px;
+	margin-right:70px;
+}
+.contact_blok_vreme{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-left:70px;
+	margin-right:70px;
+}
+.contact_blok_emael{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.contact_logo{
+	margin-top:60px;
+}
+.basement{
+	width:100%;
+	height:82px;
+	background:#404149;
+	margin-top:150px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.basement_text{
+	font-size:16px;
+	color:#FFF;
+	font-family:robotoR;
+}
+.pictures{
+	width:100%;
+	height:814;
+	background:#535058 url(картинки/pictures.png);
+	margin-top:150px;
+}
+.pictures2{
+	width:480px;
+	height:407px;
+}
+.contac_img{
+	width:80px;
+	height:29px;
+}
+.contac_img2{
+	width:71px;
+	height:29px;
+}
+
+@media (max-width: 1160px) {
+	.zagolovok{
+		margin-top:50px;
+	}
+	.tovari{
+		flex-direction:column;
+		align-items:center;
+	}
+	.tovar_kartinka{
+		margin-top:30px;
+	}
+	.zagolovok_proekti{
+		font-size:28px;
+	}
+	.text_proekti{
+		font-size:18px;
+	}
+	.pictures{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	.stroitelstvo_fon1{
+		flex-direction:column;
+		align-items:center;
+	}
+	.square_ozivi_fon{
+		flex-direction:column;
+		align-items:center;
+	}
+	.square_ozivi{
+		margin-bottom:30px;
+	}	
+	.work_header{
+		font-size:28px;
+	}
+	.contact_blok{
+		flex-direction:column;
+		align-items:center;
+	}
+}
+
+
+

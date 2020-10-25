@@ -1,0 +1,16 @@
+@font-face {
+    font-family: robotoB; /* Имя шрифта */
+    src: url("шрифт/roboto/Roboto-Bold.ttf"); /* жирный */
+}
+@font-face {
+    font-family: robotoI; /* Имя шрифта */
+    src: url("шрифт/roboto/Roboto-Italic.ttf"); /* курсив */
+}
+@font-face {
+    font-family: robotoL; /* Имя шрифта */
+    src: url("шрифт/roboto/Roboto-Light.ttf"); /* тонкий */
+}
+@font-face {
+    font-family: robotoR; /* Имя шрифта */
+    src: url("шрифт/roboto/Roboto-Regular.ttf"); /* обычный */
+}
